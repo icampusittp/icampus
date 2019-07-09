@@ -1,0 +1,212 @@
+/* navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    color: white;
+}
+
+    
+.jumbotron {
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 1000px;
+    text-align:  center;
+	
+ 
+}
+.box {
+    position: relative;
+    margin: 250px auto;
+    margin-top: 50px;
+    width: 550px;
+    height: 600px;
+    padding: 50px;
+    background: rgba(256, 254, 253, .3);
+    border-radius: 20px;
+}
+
+.textbox0 {
+    font-family: Viga;
+    
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.isi-slider img {
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+
+.isi-slider {
+    background-image: url(young-student-looking-camera-sitting-university_7502-1107.jpg);
+    position: absolute; 
+	width:400px;  
+
+    animation-name:slider;
+	animation-duration:16s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	-webkit-animation-name:slider;
+	-webkit-animation-duration:16s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-name:slider;
+	-moz-animation-duration:16s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-name:slider;
+	-o-animation-duration:16s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count:infinite;
+}
+
+.isi-slider:hover { 
+	-webkit-animation-play-state:paused; 
+	-moz-animation-play-state:paused; 
+	-o-animation-play-state:paused; 
+	animation-play-state:paused; }
+}
+
+.isi-slider img { 
+	float: right; 
+}
+.box1{
+    background-image: url(young-student-looking-camera-sitting-university_7502-1107.jpg);
+    background-size: cover;
+    margin: 250px auto;
+    margin-top: 15px;
+    width: 400px;
+    height:150px;
+    padding: 20px;
+    
+    border-radius: 20px;
+}
+
+.textbox1{
+    font-family: Viga;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.box2{
+    margin: 250px auto;
+    margin-top: -220px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background:darkgray;
+    border-radius: 20px;
+}
+
+.tombol2{
+    font-family: Viga;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.box3{
+    margin: 250px auto;
+    margin-top: -230px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background:darkgray;
+    border-radius: 20px;
+}
+.tombol3{
+    font-family: Viga;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.box4{
+    margin: 250px auto;
+    margin-top: -230px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background:darkgray;
+    border-radius: 20px;
+}
+
+.tombol4{
+    font-family: Viga;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.saran{
+    position: relative;
+    top: -200px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background:darkgray;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+
+.stext{
+    font-family: Viga;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.kritik{
+    position: relative;
+    top: -250px;
+    bottom: 100;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background:darkgray;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.ktext{
+    font-family: Viga;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+/*ultility*/
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px solid #5F6A78;
+}
+.menu {
+    position: absolute;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    height: 96px
+}
+
+/*DESKTOP VERSION*/
+@media (min-width : 992px){
+    .nav-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #5F6A78;
+}
+
+.jumbotron {
+    margin-top: -75px;
+}
+
+}

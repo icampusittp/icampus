@@ -1,0 +1,69 @@
+/* navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+    
+
+/*jumbotron*/
+.jumbotron {
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 1000px;
+    text-align:  center;
+ 
+}
+
+.jumbotron .display-4 {
+    font-family: Playball;
+    color: white;
+    margin-top: 250px ;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    border-radius: 20px
+}
+.btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: gray;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/*ultility*/
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px solid #5F6A78;
+}
+.menu {
+    position: absolute;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    height: 96px
+}
+
+/*DESKTOP VERSION*/
+@media (min-width : 992px){
+    .nav-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #5F6A78;
+}
+
+.jumbotron {
+    margin-top: -75px;
+}
+
+}
